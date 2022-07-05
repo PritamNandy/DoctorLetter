@@ -13,9 +13,10 @@ License: For each use you must have a valid license purchased only from above li
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
-    <meta name="author" content="NobleUI">
-    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="description" content="A Laravel Based Web Application Developed by HeyDev">
+    <meta name="author" content="Prasun Nandy Pritam">
+    <meta name="website" content="https://prasunnandy.me">
+    <meta name="keywords" content="heydev, heydevbd, full stack developer, freelancer, upwork, web developer, laravel developer, laravel web application, Bangladesh">
 
 
 

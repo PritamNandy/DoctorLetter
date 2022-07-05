@@ -69,6 +69,7 @@
         closeOnSelect: true,
         dropdownParent: $('.modal')
     });
+    $("#datatable").DataTable();
 </script>
 
 @stack('script')

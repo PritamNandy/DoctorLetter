@@ -24,6 +24,10 @@ Route::get('migrate', function () {
 	Artisan::call('migrate');
 });
 
+Route::get('seed', function () {
+    Artisan::call('db:seed');
+});
+
 Route::get('config-clear', function () {
 	Artisan::call('config:clear');
 });
@@ -35,7 +39,10 @@ Route::get('cache-clear', function () {
 Route::middleware(['auth'])->group(function () {
 
     Route::get('/', function () {
-        return view('dashboard');
+        $patients = \App\Models\Patient::all();
+        return view('dashboard', [
+            'patients' => $patients
+        ]);
     });
 
 	});
