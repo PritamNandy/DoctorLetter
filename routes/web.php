@@ -45,7 +45,12 @@ Route::middleware(['auth'])->group(function () {
         ]);
     });
 
-	});
+    Route::get('generate-letter/{id}', [\App\Http\Controllers\HomeController::class, 'generateLetter']);
+
+    Route::get('generated-letter/{id}', [\App\Http\Controllers\HomeController::class, 'letter']);
+
+    Route::post('save-letter', [\App\Http\Controllers\HomeController::class, 'saveLetter']);
+});
 
 
 

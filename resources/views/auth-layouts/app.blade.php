@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <!--
-Template Name: NobleUI - HTML Bootstrap 5 Admin Dashboard Template
-Author: NobleUI
-Website: https://www.nobleui.com
-Portfolio: https://themeforest.net/user/nobleui/portfolio
-Contact: nobleui123@gmail.com
-Purchase: https://1.envato.market/nobleui_admin
-License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
+Author: Prasun Nandy Pritam
+Website: https://heydev.net
+Portfolio: https://prasunnandy.me
+Contact: pritamnandy84@yahoo.com
 -->
 <html lang="en">
 <head>
@@ -17,7 +14,6 @@ License: For each use you must have a valid license purchased only from above li
     <meta name="author" content="Prasun Nandy Pritam">
     <meta name="website" content="https://prasunnandy.me">
     <meta name="keywords" content="heydev, heydevbd, full stack developer, freelancer, upwork, web developer, laravel developer, laravel web application, Bangladesh">
-
 
 
     <!-- Fonts -->
