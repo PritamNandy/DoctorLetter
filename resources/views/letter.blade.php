@@ -23,30 +23,33 @@
                     <td style="float: right;
                         width: 26%;
                         text-align: right;">
-                        <p>Dennis Ritchie</p>
-                        <p>Test Doctor</p>
-                        <p>Test Hospital</p>
-                        <p>Test Hospital Address, Test, Test-12202</p>
+                        <p>München Klinik Bogenhausen</p>
+                        <p>Englschalkinger Str. 77</p>
+                        <p>81925 München</p>
+{{--                        <p>Dennis Ritchie</p>--}}
+{{--                        <p>Test Doctor</p>--}}
+{{--                        <p>Test Hospital</p>--}}
+{{--                        <p>Test Hospital Address, Test, Test-12202</p>--}}
                     </td>
                 </tr>
             </table>
-            <table style="width: 100%;">
-                <tr>
-                    <td style="width: 26%;">
-                        <p>Date</p>
-                        <p>Recipient Information (Patient’s usual doctor- GP)</p>
-                        <p>GP Name</p>
-                        <p>Practice Name</p>
-                        <p>Address</p>
-                    </td>
-                </tr>
-            </table>
+{{--            <table style="width: 100%;">--}}
+{{--                <tr>--}}
+{{--                    <td style="width: 26%;">--}}
+{{--                        <p>{{ date('d.m.Y') }}</p>--}}
+{{--                        <p>{{ $patient->first_name }}</p>--}}
+{{--                        <p>GP Name</p>--}}
+{{--                        <p>Practice Name</p>--}}
+{{--                        <p>Address</p>--}}
+{{--                    </td>--}}
+{{--                </tr>--}}
+{{--            </table>--}}
             <table style="width: 100%; margin-top: 20px;">
                 <tr>
                     <td>
-                        <p class="hd-label">Introduction</p>
+                        <p class="hd-label">General Practitioner's address</p>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam doloribus laudantium neque pariatur qui repellat velit? Accusamus blanditiis deserunt distinctio dolore dolores dolorum eaque est excepturi illum in ipsa neque nihil perferendis praesentium quis quisquam repellat saepe, sunt tempora voluptates. Accusantium adipisci aliquam animi assumenda aut beatae cupiditate distinctio ea eaque, eos, eum facere hic ipsa ipsum iste magnam minima nemo neque numquam omnis possimus provident quam qui quidem repellendus repudiandae tempore. Dolor, harum, recusandae. A cupiditate id ipsam libero nemo nulla quis similique. Ad asperiores corporis dicta expedita, magni maiores quis repellendus? Atque labore laudantium repudiandae sit veniam.</p>
+                            <?= $dataset->practitioner_address; ?>
                         </div>
                     </td>
                 </tr>
@@ -57,7 +60,7 @@
                     <td>
                         <p class="hd-label">Introduction</p>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam doloribus laudantium neque pariatur qui repellat velit? Accusamus blanditiis deserunt distinctio dolore dolores dolorum eaque est excepturi illum in ipsa neque nihil perferendis praesentium quis quisquam repellat saepe, sunt tempora voluptates. Accusantium adipisci aliquam animi assumenda aut beatae cupiditate distinctio ea eaque, eos, eum facere hic ipsa ipsum iste magnam minima nemo neque numquam omnis possimus provident quam qui quidem repellendus repudiandae tempore. Dolor, harum, recusandae. A cupiditate id ipsam libero nemo nulla quis similique. Ad asperiores corporis dicta expedita, magni maiores quis repellendus? Atque labore laudantium repudiandae sit veniam.</p>
+                            <?= $dataset->diagnosis; ?>
                         </div>
                     </td>
                 </tr>
@@ -68,7 +71,7 @@
                     <td>
                         <p class="hd-label">Introduction</p>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam doloribus laudantium neque pariatur qui repellat velit? Accusamus blanditiis deserunt distinctio dolore dolores dolorum eaque est excepturi illum in ipsa neque nihil perferendis praesentium quis quisquam repellat saepe, sunt tempora voluptates. Accusantium adipisci aliquam animi assumenda aut beatae cupiditate distinctio ea eaque, eos, eum facere hic ipsa ipsum iste magnam minima nemo neque numquam omnis possimus provident quam qui quidem repellendus repudiandae tempore. Dolor, harum, recusandae. A cupiditate id ipsam libero nemo nulla quis similique. Ad asperiores corporis dicta expedita, magni maiores quis repellendus? Atque labore laudantium repudiandae sit veniam.</p>
+                            <?= $dataset->introduction; ?>
                         </div>
                     </td>
                 </tr>
@@ -79,7 +82,7 @@
                     <td>
                         <p class="hd-label">Introduction</p>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam doloribus laudantium neque pariatur qui repellat velit? Accusamus blanditiis deserunt distinctio dolore dolores dolorum eaque est excepturi illum in ipsa neque nihil perferendis praesentium quis quisquam repellat saepe, sunt tempora voluptates. Accusantium adipisci aliquam animi assumenda aut beatae cupiditate distinctio ea eaque, eos, eum facere hic ipsa ipsum iste magnam minima nemo neque numquam omnis possimus provident quam qui quidem repellendus repudiandae tempore. Dolor, harum, recusandae. A cupiditate id ipsam libero nemo nulla quis similique. Ad asperiores corporis dicta expedita, magni maiores quis repellendus? Atque labore laudantium repudiandae sit veniam.</p>
+                            <?= $dataset->anamnesis; ?>
                         </div>
                     </td>
                 </tr>
@@ -88,9 +91,67 @@
             <table style="width: 100%; margin-top: 20px;">
                 <tr>
                     <td>
-                        <p style="font-size: 15px !important;"><b>Best Regards</b></p>
-                        <p>Dr. Test Doctor</p>
-                        <p>APPENDIX</p>
+                        <p class="hd-label">Introduction</p>
+                        <div>
+                            <?= $dataset->medication; ?>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <table style="width: 100%; margin-top: 20px;">
+                <tr>
+                    <td>
+                        <p class="hd-label">Introduction</p>
+                        <div>
+                            <?= $dataset->physical_examination; ?>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <table style="width: 100%; margin-top: 20px;">
+                <tr>
+                    <td>
+                        <p class="hd-label">Introduction</p>
+                        <div>
+                            <?= $dataset->other_examination; ?>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <table style="width: 100%; margin-top: 20px;">
+                <tr>
+                    <td>
+                        <p class="hd-label">Introduction</p>
+                        <div>
+                            <?= $dataset->laboratory_results; ?>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <table style="width: 100%; margin-top: 20px;">
+                <tr>
+                    <td>
+                        <p class="hd-label">Introduction</p>
+                        <div>
+                            <?= $dataset->following_therapy; ?>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <table style="width: 100%; margin-top: 20px;">
+                <tr>
+                    <td>
+                        <p style="font-size: 15px !important;"><b>Mit freundlichen Grüßen</b></p>
+
+                        <p>Dr. Alexander Rupp</p>
+                        <p>Stationsarzt</p>
+                        <p>Notaufnahme</p>
+                        <p>München Klinik Bogenhausen</p>
                     </td>
                 </tr>
             </table>
@@ -110,9 +171,9 @@
             </table>
         </div>
     <div style="max-width: 800px; margin: auto; margin-top: 20px; text-align: center;">
-        <button class="btn btn-primary" onclick="printDiv('letterPart')">Print Letter</button>
-        <a href="{{ url('generate-letter/'.$patient_id) }}">Edit Patient Letter</a>
-        <a href="" class="btn btn-primary">Share</a>
+        <button class="btn btn-primary" onclick="printDiv('letterPart')" style="margin: 5px;">Print Letter</button>
+        <a style="margin: 5px;" href="{{ url('generate-letter/'.$patient_id) }}">Edit Patient Letter</a>
+        <button style="margin: 5px;" href="" class="btn btn-primary">Share</button>
     </div>
     </body>
 

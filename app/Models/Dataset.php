@@ -19,6 +19,10 @@ class Dataset extends Model
         'diagnostics',
         'patient_id',
         'date',
-        'doctor_details'
+        'doctor_details',
+        'practitioner_address',
+        'other_examination',
+        'following_therapy',
+        'laboratory_results'
     ];
 }
