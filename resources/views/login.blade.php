@@ -13,8 +13,8 @@
                                 <div class="auth-form-wrapper px-4 py-5">
 
                                     <a href="{{ url("/") }}" class="noble-ui-logo d-block mb-2">
-                                        <h1>Doctor's Letter</h1>
-{{--                                        <img src="{{URL::asset('assets/images/login/Hyperlook_logo.png')}}" alt="Logo" height="40">--}}
+{{--                                        <h1>Doctor's Letter</h1>--}}
+                                        <img src="{{URL::asset('assets/images/logo.png')}}" alt="Logo" height="40">
                                     </a>
                                     <h5 class="text-muted fw-normal mb-4">Log in to your Account Here.</h5>
 

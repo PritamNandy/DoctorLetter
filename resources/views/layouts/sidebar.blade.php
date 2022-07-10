@@ -1,9 +1,9 @@
 <nav class="sidebar">
     <div class="sidebar-header">
-        <a href="{{ url("/") }}" class="sidebar-brand">
+        <a href="{{ url("/") }}" class="sidebar-brand" style="width: 100%;">
 {{--            MEDICAL<span>CRM</span>--}}
-            Doctor's Letter
-{{--            <img src="{{URL::asset('assets/images/login/Hyperlook_logo.png')}}" alt="Logo" width="90%">--}}
+{{--            Doctor's Letter--}}
+            <img src="{{URL::asset('assets/images/logo.png')}}" alt="Logo" width="90%">
         </a>
         <div class="sidebar-toggler not-active">
             <span></span>
@@ -19,7 +19,7 @@
             @can('super_admin_permission')
                 <li class="nav-item nav-category">Dashboard</li>
                 <li class="nav-item">
-                    <a href="dashboard.html" class="nav-link">
+                    <a href="{{ url('/') }}" class="nav-link">
                         <i class="link-icon" data-feather="home"></i>
                         <span class="link-title">Dashboard</span>
                     </a>

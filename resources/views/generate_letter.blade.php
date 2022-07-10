@@ -41,7 +41,7 @@
                                 </p>
                             </div>
                             <div class="mt-3" style="text-align: right;">
-                                <button class="btn btn-secondary">Assign Task</button>
+                                <button class="btn btn-secondary">Request Information</button>
                             </div>
                         </div>
                         <div style="margin-top: 20px;">
@@ -56,7 +56,7 @@
                                 </p>
                             </div>
                             <div class="mt-3" style="text-align: right;">
-                                <button class="btn btn-secondary">Assign Task</button>
+                                <button class="btn btn-secondary">Request Information</button>
                             </div>
                         </div>
                         <div style="margin-top: 20px;">
@@ -71,7 +71,7 @@
                                 </p>
                             </div>
                             <div class="mt-3" style="text-align: right;">
-                                <button class="btn btn-secondary">Assign Task</button>
+                                <button class="btn btn-secondary">Request Information</button>
                             </div>
                         </div>
                         <div style="margin-top: 20px;">
@@ -86,7 +86,7 @@
                                 </p>
                             </div>
                             <div class="mt-3" style="text-align: right;">
-                                <button class="btn btn-secondary">Assign Task</button>
+                                <button class="btn btn-secondary">Request Information</button>
                             </div>
                         </div>
                         <div style="margin-top: 20px;">
@@ -101,7 +101,7 @@
                                 </p>
                             </div>
                             <div class="mt-3" style="text-align: right;">
-                                <button class="btn btn-secondary">Assign Task</button>
+                                <button class="btn btn-secondary">Request Information</button>
                             </div>
                         </div>
                         <div style="margin-top: 20px;">
@@ -116,7 +116,7 @@
                                 </p>
                             </div>
                             <div class="mt-3" style="text-align: right;">
-                                <button class="btn btn-secondary">Assign Task</button>
+                                <button class="btn btn-secondary">Request Information</button>
                             </div>
                         </div>
                         <div style="margin-top: 20px;">
@@ -131,11 +131,11 @@
                                 </p>
                             </div>
                             <div class="mt-3" style="text-align: right;">
-                                <button class="btn btn-secondary">Assign Task</button>
+                                <button class="btn btn-secondary">Request Information</button>
                             </div>
                         </div>
                         <div class="mt-3">
-                            <button class="btn btn-primary submitLetter">Submit</button>
+                            <button class="btn btn-primary submitLetter">Create Doctor's Letter</button>
                         </div>
                     </div>
                 </div>

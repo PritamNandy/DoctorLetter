@@ -13,6 +13,10 @@
                 td {
                     padding: 0px 15px;
                 }
+
+                .hd-label {
+                    visibility: hidden;
+                }
             </style>
             <table style="width: 100%;">
                 <tr>
@@ -90,9 +94,25 @@
                     </td>
                 </tr>
             </table>
+
+            <table style="width: 100%; margin-top: 30px;">
+                <tr>
+                    <td>
+                        <div style="
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        ">
+                            Powered By <img src="{{ asset('assets/images/logo.png') }}" alt="" style="margin-left: 10px; height: 20px;">
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </div>
     <div style="max-width: 800px; margin: auto; margin-top: 20px; text-align: center;">
         <button class="btn btn-primary" onclick="printDiv('letterPart')">Print Letter</button>
+        <a href="{{ url('generate-letter/'.$patient_id) }}">Edit Patient Letter</a>
+        <a href="" class="btn btn-primary">Share</a>
     </div>
     </body>
 

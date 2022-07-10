@@ -56,7 +56,8 @@ class HomeController extends Controller
     function letter($id) {
         $dataset = Dataset::find($id);
         return view('letter', [
-            'dataset' => $dataset
+            'dataset' => $dataset,
+            'patient_id' => $dataset->patient_id
         ]);
     }
 }
