@@ -6,6 +6,10 @@
         #datatable_wrapper .row {
             margin-top: 10px !important;
         }
+
+        img.mr-2 {
+            margin-right: 20px;
+        }
     </style>
     <div class="d-flex justify-content-between align-items-center flex-wrap grid-margin">
         <div>
@@ -114,7 +118,7 @@
                                 <tr>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ url('assets/images/Doctor Male 2.png') }}" alt="">
+                                            <img src="{{ url('assets/images/Doctor Male 2.png') }}" class="mr-2" alt="">
                                             <span>Dr. Markus Schmidt</span>
                                         </div>
                                     </td>
@@ -122,17 +126,32 @@
                                     <td>Dr. Fatma Uler</td>
                                 </tr>
                                 <tr>
-                                    <td>Dr. Fatma Uler</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="{{ url('assets/images/dcotor female 4.png') }}" class="mr-2" alt="">
+                                            <span>Dr. Fatma Uler</span>
+                                        </div>
+                                    </td>
                                     <td>Update instructions to next station for patient Mohammed Ahmed</td>
                                     <td>Dr. Sarah Mueller</td>
                                 </tr>
                                 <tr>
-                                    <td>Dr. Ivan Petrov</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="{{ url('assets/images/Doctor 3.png') }}" class="mr-2" alt="">
+                                            <span>Dr. Ivan Petrov</span>
+                                        </div>
+                                    </td>
                                     <td></td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>Dr. Sarah Mueller</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="{{ url('assets/images/Woman Picture 1.png') }}" class="mr-2" alt="">
+                                            <span>Dr. Sarah Mueller</span>
+                                        </div>
+                                    </td>
                                     <td>Approve summary for patient Florianna Strohl</td>
                                     <td>Dr. Markus Schmidt</td>
                                 </tr>
